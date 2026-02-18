@@ -1,0 +1,572 @@
+2026-02-09 16:43:44,778 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-09 16:43:45,652 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getMe "HTTP/1.1 200 OK"
+2026-02-09 16:43:45,929 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/deleteWebhook "HTTP/1.1 200 OK"
+2026-02-09 16:43:45,937 - apscheduler.scheduler - INFO - Added job "kirim_reminder_grup" to job store "default"
+2026-02-09 16:43:45,938 - apscheduler.scheduler - INFO - Scheduler started
+2026-02-09 16:43:45,939 - telegram.ext.Application - INFO - Application started
+2026-02-09 16:43:47,372 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:43:52,490 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:43:54,786 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-09 08:44:24 UTC)" (scheduled at 2026-02-09 08:43:54.777874+00:00)
+2026-02-09 16:43:56,670 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-09 08:44:24 UTC)" executed successfully
+2026-02-09 16:43:57,977 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:44:05,468 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:44:06,708 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:44:07,860 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:44:09,084 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:44:09,645 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:44:10,992 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:44:11,606 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:44:12,670 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:44:13,945 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:44:14,748 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:44:15,407 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:44:16,153 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:44:19,436 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:44:19,917 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:44:22,902 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:44:24,786 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-09 08:44:54 UTC)" (scheduled at 2026-02-09 08:44:24.777874+00:00)
+2026-02-09 16:44:25,777 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-09 08:44:54 UTC)" executed successfully
+2026-02-09 16:44:33,147 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:44:43,417 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:44:45,341 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:44:47,448 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:44:48,679 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:44:49,878 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:44:50,826 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:44:52,226 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:44:54,370 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:44:54,785 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-09 08:45:24 UTC)" (scheduled at 2026-02-09 08:44:54.777874+00:00)
+2026-02-09 16:44:55,842 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-09 08:45:24 UTC)" executed successfully
+2026-02-09 16:44:55,843 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:44:56,084 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:44:57,378 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:45:07,628 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:45:07,891 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:45:18,140 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:45:24,781 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-09 08:45:54 UTC)" (scheduled at 2026-02-09 08:45:24.777874+00:00)
+2026-02-09 16:45:25,843 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-09 08:45:54 UTC)" executed successfully
+2026-02-09 16:45:28,435 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:45:38,692 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:45:48,936 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:45:54,790 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-09 08:46:24 UTC)" (scheduled at 2026-02-09 08:45:54.777874+00:00)
+2026-02-09 16:45:55,892 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-09 08:46:24 UTC)" executed successfully
+2026-02-09 16:45:59,179 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:46:09,539 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:46:19,869 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:46:24,796 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-09 08:46:54 UTC)" (scheduled at 2026-02-09 08:46:24.777874+00:00)
+2026-02-09 16:46:26,082 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-09 08:46:54 UTC)" executed successfully
+2026-02-09 16:46:30,122 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:46:41,157 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:46:51,426 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:46:54,783 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-09 08:47:24 UTC)" (scheduled at 2026-02-09 08:46:54.777874+00:00)
+2026-02-09 16:46:55,834 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-09 08:47:24 UTC)" executed successfully
+2026-02-09 16:47:01,790 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:47:12,031 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:47:22,273 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:47:24,781 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-09 08:47:54 UTC)" (scheduled at 2026-02-09 08:47:24.777874+00:00)
+2026-02-09 16:47:25,839 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-09 08:47:54 UTC)" executed successfully
+2026-02-09 16:47:32,508 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:47:42,750 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:47:53,147 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:47:54,786 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-09 08:48:24 UTC)" (scheduled at 2026-02-09 08:47:54.777874+00:00)
+2026-02-09 16:47:55,800 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-09 08:48:24 UTC)" executed successfully
+2026-02-09 16:48:03,402 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:48:13,650 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:48:23,905 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:48:24,780 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-09 08:48:54 UTC)" (scheduled at 2026-02-09 08:48:24.777874+00:00)
+2026-02-09 16:48:25,820 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-09 08:48:54 UTC)" executed successfully
+2026-02-09 16:48:34,144 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:48:44,406 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:48:54,644 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:48:54,794 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-09 08:49:24 UTC)" (scheduled at 2026-02-09 08:48:54.777874+00:00)
+2026-02-09 16:48:57,306 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-09 08:49:24 UTC)" executed successfully
+2026-02-09 16:49:04,887 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:49:15,136 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:49:24,787 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-09 08:49:54 UTC)" (scheduled at 2026-02-09 08:49:24.777874+00:00)
+2026-02-09 16:49:26,641 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-09 08:49:54 UTC)" executed successfully
+2026-02-09 16:49:26,642 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:49:36,890 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:49:47,192 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:49:54,789 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-09 08:50:24 UTC)" (scheduled at 2026-02-09 08:49:54.777874+00:00)
+2026-02-09 16:49:58,894 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-09 08:50:24 UTC)" executed successfully
+2026-02-09 16:49:58,896 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:50:09,151 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:50:19,392 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:50:24,779 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-09 08:50:54 UTC)" (scheduled at 2026-02-09 08:50:24.777874+00:00)
+2026-02-09 16:50:25,842 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-09 08:50:54 UTC)" executed successfully
+2026-02-09 16:50:29,631 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:50:35,777 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:50:35,782 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2026-02-09 16:50:35,783 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-02-09 16:50:35,785 - telegram.ext.Application - INFO - Application.stop() complete
+2026-02-09 16:52:35,544 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-09 16:52:36,273 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getMe "HTTP/1.1 200 OK"
+2026-02-09 16:52:36,505 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/deleteWebhook "HTTP/1.1 200 OK"
+2026-02-09 16:52:36,511 - apscheduler.scheduler - INFO - Added job "kirim_reminder_grup" to job store "default"
+2026-02-09 16:52:36,511 - apscheduler.scheduler - INFO - Scheduler started
+2026-02-09 16:52:36,512 - telegram.ext.Application - INFO - Application started
+2026-02-09 16:52:37,303 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:52:42,615 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:52:45,554 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-09 08:53:15 UTC)" (scheduled at 2026-02-09 08:52:45.543407+00:00)
+2026-02-09 16:52:46,547 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-09 08:53:15 UTC)" executed successfully
+2026-02-09 16:52:52,861 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:52:57,848 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:53:04,763 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:53:06,630 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-09 16:53:06,638 - __main__ - ERROR - <Response [200]>
+2026-02-09 16:53:15,554 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-09 08:53:45 UTC)" (scheduled at 2026-02-09 08:53:15.543407+00:00)
+2026-02-09 16:53:16,380 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-09 08:53:45 UTC)" executed successfully
+2026-02-09 16:53:16,381 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:53:26,621 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:53:36,858 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:53:45,549 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-09 08:54:15 UTC)" (scheduled at 2026-02-09 08:53:45.543407+00:00)
+2026-02-09 16:53:46,661 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-09 08:54:15 UTC)" executed successfully
+2026-02-09 16:53:47,098 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:53:57,343 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:54:07,591 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:54:11,526 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-09 16:54:11,529 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2026-02-09 16:54:11,530 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-02-09 16:54:11,531 - telegram.ext.Application - INFO - Application.stop() complete
+2026-02-10 13:12:40,517 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-10 13:12:41,381 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getMe "HTTP/1.1 200 OK"
+2026-02-10 13:12:41,603 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/deleteWebhook "HTTP/1.1 200 OK"
+2026-02-10 13:12:41,608 - apscheduler.scheduler - INFO - Added job "kirim_reminder_grup" to job store "default"
+2026-02-10 13:12:41,608 - apscheduler.scheduler - INFO - Scheduler started
+2026-02-10 13:12:41,609 - telegram.ext.Application - INFO - Application started
+2026-02-10 13:12:50,528 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:13:20 UTC)" (scheduled at 2026-02-10 05:12:50.515383+00:00)
+2026-02-10 13:12:53,047 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:12:53,873 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:12:54,109 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 400 Bad Request"
+2026-02-10 13:12:54,149 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:13:20 UTC)" executed successfully
+2026-02-10 13:13:03,302 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:13:13,537 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:13:20,538 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:13:50 UTC)" (scheduled at 2026-02-10 05:13:20.515383+00:00)
+2026-02-10 13:13:23,754 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:13:23,757 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:13:23,980 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 400 Bad Request"
+2026-02-10 13:13:24,000 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:13:50 UTC)" executed successfully
+2026-02-10 13:13:33,975 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:13:44,189 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:13:50,529 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:14:20 UTC)" (scheduled at 2026-02-10 05:13:50.515383+00:00)
+2026-02-10 13:13:54,479 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:13:58,154 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:14:20 UTC)" executed successfully
+2026-02-10 13:14:04,715 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:14:14,930 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:14:20,529 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:14:50 UTC)" (scheduled at 2026-02-10 05:14:20.515383+00:00)
+2026-02-10 13:14:23,827 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:14:24,139 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 400 Bad Request"
+2026-02-10 13:14:24,160 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:14:50 UTC)" executed successfully
+2026-02-10 13:14:25,146 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:14:35,420 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:14:45,659 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:14:50,530 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:15:20 UTC)" (scheduled at 2026-02-10 05:14:50.515383+00:00)
+2026-02-10 13:14:53,705 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:14:53,931 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 400 Bad Request"
+2026-02-10 13:14:53,950 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:15:20 UTC)" executed successfully
+2026-02-10 13:14:55,892 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:15:06,109 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:15:16,363 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:15:20,523 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:15:50 UTC)" (scheduled at 2026-02-10 05:15:20.515383+00:00)
+2026-02-10 13:15:23,752 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:15:23,987 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 400 Bad Request"
+2026-02-10 13:15:24,013 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:15:50 UTC)" executed successfully
+2026-02-10 13:15:26,603 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:15:36,835 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:15:47,070 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:15:50,522 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:16:20 UTC)" (scheduled at 2026-02-10 05:15:50.515383+00:00)
+2026-02-10 13:15:53,823 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:15:54,066 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 400 Bad Request"
+2026-02-10 13:15:54,097 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:16:20 UTC)" executed successfully
+2026-02-10 13:15:57,305 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:16:07,522 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:16:17,735 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:16:20,525 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:16:50 UTC)" (scheduled at 2026-02-10 05:16:20.515383+00:00)
+2026-02-10 13:16:23,614 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:16:23,831 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 400 Bad Request"
+2026-02-10 13:16:23,852 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:16:50 UTC)" executed successfully
+2026-02-10 13:16:28,013 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:16:38,223 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:16:48,431 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:16:50,530 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:17:20 UTC)" (scheduled at 2026-02-10 05:16:50.515383+00:00)
+2026-02-10 13:16:53,900 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:16:54,121 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 400 Bad Request"
+2026-02-10 13:16:54,145 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:17:20 UTC)" executed successfully
+2026-02-10 13:16:58,717 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:17:08,951 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:17:19,407 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:17:20,523 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:17:50 UTC)" (scheduled at 2026-02-10 05:17:20.515383+00:00)
+2026-02-10 13:17:23,786 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:17:24,105 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 400 Bad Request"
+2026-02-10 13:17:24,124 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:17:50 UTC)" executed successfully
+2026-02-10 13:17:29,759 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:17:39,985 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:17:50,197 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:17:50,516 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:18:20 UTC)" (scheduled at 2026-02-10 05:17:50.515383+00:00)
+2026-02-10 13:17:53,655 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:17:53,868 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 400 Bad Request"
+2026-02-10 13:17:53,889 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:18:20 UTC)" executed successfully
+2026-02-10 13:18:00,415 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:18:10,630 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:18:20,521 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:18:50 UTC)" (scheduled at 2026-02-10 05:18:20.515383+00:00)
+2026-02-10 13:18:22,801 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:18:23,676 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:18:23,954 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 400 Bad Request"
+2026-02-10 13:18:23,976 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:18:50 UTC)" executed successfully
+2026-02-10 13:18:33,024 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:18:43,240 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:18:50,529 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:19:20 UTC)" (scheduled at 2026-02-10 05:18:50.515383+00:00)
+2026-02-10 13:18:53,456 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:18:53,786 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:18:54,027 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 400 Bad Request"
+2026-02-10 13:18:54,039 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:19:20 UTC)" executed successfully
+2026-02-10 13:19:03,667 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:19:13,976 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:19:20,519 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:19:50 UTC)" (scheduled at 2026-02-10 05:19:20.515383+00:00)
+2026-02-10 13:19:23,673 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:19:23,899 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 400 Bad Request"
+2026-02-10 13:19:23,918 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:19:50 UTC)" executed successfully
+2026-02-10 13:19:24,185 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:19:25,672 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:19:26,055 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-02-10 13:19:29,187 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/editMessageText "HTTP/1.1 200 OK"
+2026-02-10 13:19:29,192 - __main__ - INFO - Task 101 di-update jadi DONE oleh matchaonly
+2026-02-10 13:19:35,888 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:19:46,144 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:19:50,533 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:20:20 UTC)" (scheduled at 2026-02-10 05:19:50.515383+00:00)
+2026-02-10 13:19:53,675 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 400 Bad Request"
+2026-02-10 13:19:53,686 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:20:20 UTC)" executed successfully
+2026-02-10 13:19:56,364 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:20:06,583 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:20:16,865 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:20:20,518 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:20:50 UTC)" (scheduled at 2026-02-10 05:20:20.515383+00:00)
+2026-02-10 13:20:23,636 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 400 Bad Request"
+2026-02-10 13:20:23,665 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:20:50 UTC)" executed successfully
+2026-02-10 13:20:27,085 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:20:37,342 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:20:47,558 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:20:50,525 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:21:20 UTC)" (scheduled at 2026-02-10 05:20:50.515383+00:00)
+2026-02-10 13:20:53,510 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 400 Bad Request"
+2026-02-10 13:20:53,531 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:21:20 UTC)" executed successfully
+2026-02-10 13:20:57,772 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:21:07,984 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:21:18,204 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:21:20,526 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:21:50 UTC)" (scheduled at 2026-02-10 05:21:20.515383+00:00)
+2026-02-10 13:21:23,746 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 400 Bad Request"
+2026-02-10 13:21:23,757 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:21:50 UTC)" executed successfully
+2026-02-10 13:21:28,503 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:21:38,736 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:21:48,971 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:21:50,521 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:22:20 UTC)" (scheduled at 2026-02-10 05:21:50.515383+00:00)
+2026-02-10 13:21:53,463 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 400 Bad Request"
+2026-02-10 13:21:53,483 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:22:20 UTC)" executed successfully
+2026-02-10 13:21:59,186 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:22:09,440 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:22:19,655 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:22:20,518 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:22:50 UTC)" (scheduled at 2026-02-10 05:22:20.515383+00:00)
+2026-02-10 13:22:27,749 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:22:50 UTC)" executed successfully
+2026-02-10 13:22:29,881 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:22:40,099 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:22:50,313 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:22:50,519 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:23:20 UTC)" (scheduled at 2026-02-10 05:22:50.515383+00:00)
+2026-02-10 13:22:53,439 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 400 Bad Request"
+2026-02-10 13:22:53,461 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:23:20 UTC)" executed successfully
+2026-02-10 13:23:00,531 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:23:10,742 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:23:20,530 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:23:50 UTC)" (scheduled at 2026-02-10 05:23:20.515383+00:00)
+2026-02-10 13:23:22,774 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:23:23,492 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 400 Bad Request"
+2026-02-10 13:23:23,532 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:23:50 UTC)" executed successfully
+2026-02-10 13:23:33,327 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:23:43,547 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:23:50,533 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:24:20 UTC)" (scheduled at 2026-02-10 05:23:50.515383+00:00)
+2026-02-10 13:23:53,470 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 400 Bad Request"
+2026-02-10 13:23:53,511 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:24:20 UTC)" executed successfully
+2026-02-10 13:23:53,761 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:24:03,972 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:24:14,253 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:24:20,521 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:24:50 UTC)" (scheduled at 2026-02-10 05:24:20.515383+00:00)
+2026-02-10 13:24:24,466 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:24:27,926 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:24:50 UTC)" executed successfully
+2026-02-10 13:24:34,735 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:24:44,951 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:24:50,525 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:25:20 UTC)" (scheduled at 2026-02-10 05:24:50.515383+00:00)
+2026-02-10 13:24:53,441 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 400 Bad Request"
+2026-02-10 13:24:53,469 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:25:20 UTC)" executed successfully
+2026-02-10 13:24:55,197 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:25:05,429 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:25:15,647 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:25:20,532 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:25:50 UTC)" (scheduled at 2026-02-10 05:25:20.515383+00:00)
+2026-02-10 13:25:23,501 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 400 Bad Request"
+2026-02-10 13:25:23,535 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:25:50 UTC)" executed successfully
+2026-02-10 13:25:25,904 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:25:36,138 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:25:46,374 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:25:50,526 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:26:20 UTC)" (scheduled at 2026-02-10 05:25:50.515383+00:00)
+2026-02-10 13:25:53,578 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 400 Bad Request"
+2026-02-10 13:25:53,602 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:26:20 UTC)" executed successfully
+2026-02-10 13:25:56,589 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:26:06,844 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:26:17,080 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:26:20,539 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:26:50 UTC)" (scheduled at 2026-02-10 05:26:20.515383+00:00)
+2026-02-10 13:26:23,661 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 400 Bad Request"
+2026-02-10 13:26:23,684 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:26:50 UTC)" executed successfully
+2026-02-10 13:26:27,316 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:26:37,529 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:26:47,889 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:26:50,519 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:27:20 UTC)" (scheduled at 2026-02-10 05:26:50.515383+00:00)
+2026-02-10 13:26:53,634 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 400 Bad Request"
+2026-02-10 13:26:53,679 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:27:20 UTC)" executed successfully
+2026-02-10 13:26:58,235 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:27:08,448 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:27:18,704 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:27:20,522 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:27:50 UTC)" (scheduled at 2026-02-10 05:27:20.515383+00:00)
+2026-02-10 13:27:23,570 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 400 Bad Request"
+2026-02-10 13:27:23,596 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:27:50 UTC)" executed successfully
+2026-02-10 13:27:28,836 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:27:28,840 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2026-02-10 13:27:28,842 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-02-10 13:27:28,842 - telegram.ext.Application - INFO - Application.stop() complete
+2026-02-10 13:29:34,721 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-10 13:29:35,633 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getMe "HTTP/1.1 200 OK"
+2026-02-10 13:29:35,857 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/deleteWebhook "HTTP/1.1 200 OK"
+2026-02-10 13:29:35,863 - apscheduler.scheduler - INFO - Added job "kirim_reminder_grup" to job store "default"
+2026-02-10 13:29:35,864 - apscheduler.scheduler - INFO - Scheduler started
+2026-02-10 13:29:35,864 - telegram.ext.Application - INFO - Application started
+2026-02-10 13:29:44,723 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:30:14 UTC)" (scheduled at 2026-02-10 05:29:44.720205+00:00)
+2026-02-10 13:29:44,723 - __main__ - INFO - Memulai pengecekan tugas...
+2026-02-10 13:29:47,347 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:29:48,299 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:29:48,767 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:29:48,770 - __main__ - INFO - Selesai. Mengirim 2 reminder.
+2026-02-10 13:29:48,775 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:30:14 UTC)" executed successfully
+2026-02-10 13:29:57,666 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:30:07,910 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:30:14,734 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:30:44 UTC)" (scheduled at 2026-02-10 05:30:14.720205+00:00)
+2026-02-10 13:30:14,734 - __main__ - INFO - Memulai pengecekan tugas...
+2026-02-10 13:30:18,009 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:30:18,243 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:30:18,411 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:30:18,417 - __main__ - INFO - Selesai. Mengirim 2 reminder.
+2026-02-10 13:30:18,430 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:30:44 UTC)" executed successfully
+2026-02-10 13:30:28,470 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:30:38,707 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:30:40,494 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:30:41,318 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-02-10 13:30:44,436 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/editMessageText "HTTP/1.1 200 OK"
+2026-02-10 13:30:44,733 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:31:14 UTC)" (scheduled at 2026-02-10 05:30:44.720205+00:00)
+2026-02-10 13:30:44,734 - __main__ - INFO - Memulai pengecekan tugas...
+2026-02-10 13:30:47,396 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:30:47,399 - __main__ - INFO - Selesai. Mengirim 1 reminder.
+2026-02-10 13:30:47,404 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:31:14 UTC)" executed successfully
+2026-02-10 13:30:50,738 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:31:00,966 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:31:11,301 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:31:14,731 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:31:44 UTC)" (scheduled at 2026-02-10 05:31:14.720205+00:00)
+2026-02-10 13:31:14,735 - __main__ - INFO - Memulai pengecekan tugas...
+2026-02-10 13:31:18,326 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:31:18,336 - __main__ - INFO - Selesai. Mengirim 1 reminder.
+2026-02-10 13:31:18,344 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:31:44 UTC)" executed successfully
+2026-02-10 13:31:21,538 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:31:31,874 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:31:42,213 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:31:44,725 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:32:14 UTC)" (scheduled at 2026-02-10 05:31:44.720205+00:00)
+2026-02-10 13:31:44,726 - __main__ - INFO - Memulai pengecekan tugas...
+2026-02-10 13:31:47,903 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:31:48,311 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:31:48,722 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:31:49,143 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:31:49,154 - __main__ - INFO - Selesai. Mengirim 4 reminder.
+2026-02-10 13:31:49,167 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:32:14 UTC)" executed successfully
+2026-02-10 13:31:53,182 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:32:03,419 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:32:13,652 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:32:14,724 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:32:44 UTC)" (scheduled at 2026-02-10 05:32:14.720205+00:00)
+2026-02-10 13:32:14,728 - __main__ - INFO - Memulai pengecekan tugas...
+2026-02-10 13:32:18,224 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:32:18,665 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:32:19,085 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:32:19,489 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:32:19,494 - __main__ - INFO - Selesai. Mengirim 4 reminder.
+2026-02-10 13:32:19,504 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:32:44 UTC)" executed successfully
+2026-02-10 13:32:23,888 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:32:34,117 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:32:44,362 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:32:44,735 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:33:14 UTC)" (scheduled at 2026-02-10 05:32:44.720205+00:00)
+2026-02-10 13:32:44,737 - __main__ - INFO - Memulai pengecekan tugas...
+2026-02-10 13:32:47,849 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:32:48,261 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:32:48,689 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:32:49,093 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:32:49,098 - __main__ - INFO - Selesai. Mengirim 4 reminder.
+2026-02-10 13:32:49,110 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:33:14 UTC)" executed successfully
+2026-02-10 13:32:54,594 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:33:04,849 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:33:05,076 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:33:10,679 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:33:14,731 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:33:44 UTC)" (scheduled at 2026-02-10 05:33:14.720205+00:00)
+2026-02-10 13:33:14,733 - __main__ - INFO - Memulai pengecekan tugas...
+2026-02-10 13:33:17,773 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:33:18,178 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:33:18,614 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:33:19,041 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:33:19,046 - __main__ - INFO - Selesai. Mengirim 4 reminder.
+2026-02-10 13:33:19,059 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:33:44 UTC)" executed successfully
+2026-02-10 13:33:20,915 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:33:31,151 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:33:34,053 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:33:34,899 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-02-10 13:33:38,236 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/editMessageText "HTTP/1.1 200 OK"
+2026-02-10 13:33:44,290 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:33:44,742 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:34:14 UTC)" (scheduled at 2026-02-10 05:33:44.720205+00:00)
+2026-02-10 13:33:44,745 - __main__ - INFO - Memulai pengecekan tugas...
+2026-02-10 13:33:47,728 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:33:48,130 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:33:48,539 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:33:48,541 - __main__ - INFO - Selesai. Mengirim 3 reminder.
+2026-02-10 13:33:48,545 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:34:14 UTC)" executed successfully
+2026-02-10 13:33:54,516 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:34:04,781 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:38:00,504 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-10 13:38:01,294 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getMe "HTTP/1.1 200 OK"
+2026-02-10 13:38:01,506 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/deleteWebhook "HTTP/1.1 200 OK"
+2026-02-10 13:38:01,515 - apscheduler.scheduler - INFO - Added job "kirim_reminder_grup" to job store "default"
+2026-02-10 13:38:01,516 - apscheduler.scheduler - INFO - Scheduler started
+2026-02-10 13:38:01,517 - telegram.ext.Application - INFO - Application started
+2026-02-10 13:38:10,513 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:38:40 UTC)" (scheduled at 2026-02-10 05:38:10.503651+00:00)
+2026-02-10 13:38:10,516 - __main__ - INFO - Memulai pengecekan tugas...
+2026-02-10 13:38:13,005 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:38:14,121 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:38:15,351 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:38:15,821 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:38:15,823 - __main__ - INFO - Selesai. Mengirim 3 reminder.
+2026-02-10 13:38:15,827 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:38:40 UTC)" executed successfully
+2026-02-10 13:38:23,223 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:38:33,527 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:38:40,520 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:39:10 UTC)" (scheduled at 2026-02-10 05:38:40.503651+00:00)
+2026-02-10 13:38:40,521 - __main__ - INFO - Memulai pengecekan tugas...
+2026-02-10 13:38:43,622 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:38:43,753 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:38:44,018 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:38:44,412 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:38:44,417 - __main__ - INFO - Selesai. Mengirim 3 reminder.
+2026-02-10 13:38:44,430 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:39:10 UTC)" executed successfully
+2026-02-10 13:38:53,976 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:39:04,224 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:39:10,511 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:39:40 UTC)" (scheduled at 2026-02-10 05:39:10.503651+00:00)
+2026-02-10 13:39:10,513 - __main__ - INFO - Memulai pengecekan tugas...
+2026-02-10 13:39:15,413 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:39:16,439 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:39:16,878 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:39:17,280 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:39:17,282 - __main__ - INFO - Selesai. Mengirim 3 reminder.
+2026-02-10 13:39:17,285 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:39:40 UTC)" executed successfully
+2026-02-10 13:39:25,638 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:39:35,863 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:39:36,089 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\pyta\KP\TeleBot\venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\pyta\KP\TeleBot\venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pyta\KP\TeleBot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\pyta\KP\TeleBot\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pyta\KP\TeleBot\venv\Lib\site-packages\httpcore\_async\connection.py", line 103, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pyta\KP\TeleBot\venv\Lib\site-packages\httpcore\_async\http11.py", line 136, in handle_async_request
+    raise exc
+  File "C:\pyta\KP\TeleBot\venv\Lib\site-packages\httpcore\_async\http11.py", line 106, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pyta\KP\TeleBot\venv\Lib\site-packages\httpcore\_async\http11.py", line 177, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pyta\KP\TeleBot\venv\Lib\site-packages\httpcore\_async\http11.py", line 217, in _receive_event
+    data = await self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pyta\KP\TeleBot\venv\Lib\site-packages\httpcore\_backends\anyio.py", line 32, in read
+    with map_exceptions(exc_map):
+  File "C:\Program Files\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\pyta\KP\TeleBot\venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\pyta\KP\TeleBot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pyta\KP\TeleBot\venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pyta\KP\TeleBot\venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pyta\KP\TeleBot\venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pyta\KP\TeleBot\venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pyta\KP\TeleBot\venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pyta\KP\TeleBot\venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Program Files\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\pyta\KP\TeleBot\venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\pyta\KP\TeleBot\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\pyta\KP\TeleBot\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "C:\pyta\KP\TeleBot\venv\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pyta\KP\TeleBot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 671, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pyta\KP\TeleBot\venv\Lib\site-packages\telegram\_bot.py", line 4860, in get_updates
+    await self._post(
+  File "C:\pyta\KP\TeleBot\venv\Lib\site-packages\telegram\_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\pyta\KP\TeleBot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pyta\KP\TeleBot\venv\Lib\site-packages\telegram\_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\pyta\KP\TeleBot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pyta\KP\TeleBot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pyta\KP\TeleBot\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ReadError: 
+2026-02-10 13:39:40,518 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:40:10 UTC)" (scheduled at 2026-02-10 05:39:40.503651+00:00)
+2026-02-10 13:39:40,519 - __main__ - INFO - Memulai pengecekan tugas...
+2026-02-10 13:39:44,204 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:39:44,732 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:39:45,282 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/sendMessage "HTTP/1.1 200 OK"
+2026-02-10 13:39:45,284 - __main__ - INFO - Selesai. Mengirim 3 reminder.
+2026-02-10 13:39:45,287 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:00:30], next run at: 2026-02-10 05:40:10 UTC)" executed successfully
+2026-02-10 13:39:48,330 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-10 13:39:48,334 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2026-02-10 13:39:48,335 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-02-10 13:39:48,336 - telegram.ext.Application - INFO - Application.stop() complete
