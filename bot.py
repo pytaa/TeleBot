@@ -6,6 +6,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 from dotenv import load_dotenv
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, ContextTypes, CommandHandler, CallbackQueryHandler
+from handlers.admin import get_admin_handler
 
 # --- 1. KONFIGURASI & LOGGING ---
 load_dotenv()
@@ -167,6 +168,7 @@ if __name__ == '__main__':
     app = ApplicationBuilder().token(TOKEN).build()
 
     # Daftarkan Handler
+    app.add_handler(get_admin_handler())
     app.add_handler(CommandHandler("status", cmd_status))
     app.add_handler(CallbackQueryHandler(tombol_handler))
 
