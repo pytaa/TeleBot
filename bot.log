@@ -570,3 +570,124 @@ telegram.error.NetworkError: httpx.ReadError:
 2026-02-10 13:39:48,334 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
 2026-02-10 13:39:48,335 - apscheduler.scheduler - INFO - Scheduler has been shut down
 2026-02-10 13:39:48,336 - telegram.ext.Application - INFO - Application.stop() complete
+2026-02-18 15:06:43,455 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-18 15:06:44,536 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getMe "HTTP/1.1 200 OK"
+2026-02-18 15:06:44,777 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/deleteWebhook "HTTP/1.1 200 OK"
+2026-02-18 15:06:44,782 - apscheduler.scheduler - INFO - Added job "kirim_reminder_grup" to job store "default"
+2026-02-18 15:06:44,783 - apscheduler.scheduler - INFO - Scheduler started
+2026-02-18 15:06:44,784 - telegram.ext.Application - INFO - Application started
+2026-02-18 15:06:53,456 - apscheduler.executors.default - INFO - Running job "kirim_reminder_grup (trigger: interval[0:01:00], next run at: 2026-02-18 07:07:53 UTC)" (scheduled at 2026-02-18 07:06:53.454156+00:00)
+2026-02-18 15:06:53,461 - __main__ - INFO - Memulai pengecekan tugas...
+2026-02-18 15:06:53,462 - __main__ - ERROR - [ERROR] Gagal kirim reminder: [Errno 2] No such file or directory: 'service_account.json'
+2026-02-18 15:06:53,463 - apscheduler.executors.default - INFO - Job "kirim_reminder_grup (trigger: interval[0:01:00], next run at: 2026-02-18 07:07:53 UTC)" executed successfully
+2026-02-18 15:06:55,482 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-18 15:07:01,419 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 409 Conflict"
+2026-02-18 15:07:01,425 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "V:\Documents\TeleBot\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "V:\Documents\TeleBot\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "V:\Documents\TeleBot\venv\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "V:\Documents\TeleBot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 671, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "V:\Documents\TeleBot\venv\Lib\site-packages\telegram\_bot.py", line 4860, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "V:\Documents\TeleBot\venv\Lib\site-packages\telegram\_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "V:\Documents\TeleBot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "V:\Documents\TeleBot\venv\Lib\site-packages\telegram\_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "V:\Documents\TeleBot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "V:\Documents\TeleBot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-18 15:07:06,932 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 409 Conflict"
+2026-02-18 15:07:06,935 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "V:\Documents\TeleBot\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "V:\Documents\TeleBot\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "V:\Documents\TeleBot\venv\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "V:\Documents\TeleBot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 671, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "V:\Documents\TeleBot\venv\Lib\site-packages\telegram\_bot.py", line 4860, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "V:\Documents\TeleBot\venv\Lib\site-packages\telegram\_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "V:\Documents\TeleBot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "V:\Documents\TeleBot\venv\Lib\site-packages\telegram\_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "V:\Documents\TeleBot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "V:\Documents\TeleBot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-18 15:07:13,036 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8211591362:AAFzSOqq5VuM4tvQP5Mhe4cy-WlHakpSmVE/getUpdates "HTTP/1.1 200 OK"
+2026-02-18 15:07:13,039 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2026-02-18 15:07:13,040 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-02-18 15:07:13,055 - telegram.ext.Application - INFO - Application.stop() complete
