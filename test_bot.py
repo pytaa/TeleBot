@@ -119,10 +119,9 @@ async def tombol_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
             # Mengirim pesan konfirmasi ke grup
             pesan_baru = (
                 f"✅ <b>SUDAH DISUBMIT!</b>\n\n"
-                f"📝 <b>ID:</b> {task_id_target}\n"
                 f"📝 <b>Judul:</b> {task_title_target}\n"
                 f"👤 Dikonfirmasi oleh: @{user_klik}\n"
-                f"🕒 Waktu: {datetime.datetime.now().strftime('%H:%M WIB')}"
+                f"🕒 Waktu: {datetime.datetime.now().strftime('%H:%M WITA')}"
             )
 
             try:
@@ -173,3 +172,13 @@ if __name__ == "__main__":
     job_queue = app.job_queue
 
     print("Bot Berjalan... Tekan Ctrl+C untuk berhenti.")
+
+    # PENGATURAN JADWAL REMINDER
+    # UNTUK TESTING
+    job_queue.run_repeating(kirim_reminder_grup, interval = 60, first = 10)
+
+    # UNTUK REAL DEPLOYMENT
+    # time_wita = datetime.time(hour = 0, minute = 0)
+    # job_queue.run_daily(kirim_reminder_grup, time = time_wita, days = (0, 1, 2, 3, 4))
+
+    app.run_polling()
