@@ -3,3 +3,4 @@ venv/
 __pycache__/
 service_account.json
 node-telegram-bot-api-master/
+bot.log
