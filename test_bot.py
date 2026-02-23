@@ -1,6 +1,7 @@
 import os
 import logging
 import datetime
+import pytz
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 from dotenv import load_dotenv
@@ -81,6 +82,10 @@ async def kirim_reminder_grup(context: ContextTypes.DEFAULT_TYPE):
             logger.info(f"Selesai. Mengirim {count_sent} reminder.")
         else:
             logger.info("Tidak ada tugas pending.")
+            await context.bot.send_message(
+                chat_id = GROUP_CHAT_ID,
+                text = "🎉 Semua artikel sudah disubmit! Tidak ada reminder yang dikirim."
+            )
 
     except Exception as e:
         logger.error(f"[ERROR] Gagal mengirim reminder: {e}")
@@ -110,18 +115,25 @@ async def tombol_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 print(f"❌ Gagal: ID {task_id_target} tidak ditemukan di kolom A.")
                 await query.message.reply_text(f"⚠️ Gagal: ID {task_id_target} tidak ditemukan di Spreadsheet. Cek datanya.")
                 return
-            
+
+            judul_asli = sh.cell(cell.row, 4).value  # Kolom 4 = Kolom D (judul)
+
             # Update status di Spreadsheet menjadi "Done"
             sh.update_cell(cell.row, 6, "done")         # Kolom 6 = Kolom F (status)
 
             print(f"✅ Sukses: Status Baris {cell.row} diubah menjadi 'done'")
 
+            # Mengatur zona waktu ke WITA
+            tz_wita = pytz.timezone('Asia/Makassar')
+            waktu_sekarang = datetime.datetime.now(tz_wita)
+            waktu_format = waktu_sekarang.strftime('%d-%m-%Y %H:%M WITA')
+
             # Mengirim pesan konfirmasi ke grup
             pesan_baru = (
                 f"✅ <b>SUDAH DISUBMIT!</b>\n\n"
-                f"📝 <b>Judul:</b> {task_title_target}\n"
+                f"📝 <b>Judul:</b> {judul_asli}\n"
                 f"👤 Dikonfirmasi oleh: @{user_klik}\n"
-                f"🕒 Waktu: {datetime.datetime.now().strftime('%H:%M WITA')}"
+                f"🕒 Waktu: {waktu_format}"
             )
 
             try:
@@ -136,49 +148,118 @@ async def tombol_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
             print(f"❌ Gagal memproses tombol: {e}")
             await query.message.reply_text("⚠️ Terjadi kesalahan saat update database.")
 
-# 5. CEK STATUS
+    # ==== MENU CALLBACK ====
+    elif data == "menu_status":
+        await cmd_status(update, context)
+
+    elif data == "menu_list":
+        await cmd_list(update, context)
+
+    elif data == "menu_petunjuk":
+        await cmd_petunjuk(update, context)
+
+    elif data == "menu_panduan":
+        await cmd_panduan(update, context)
+
+
+# 5. CEK STATUS PENDING
 async def cmd_status(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    try:
-        sh = connect_sheets()
-        records = sh.get_all_records()
-        list_pending = []
+    sh = connect_sheets()
+    records = sh.get_all_records()
 
-        for row in records:
-            if str(row['status']).lower() == 'pending':
-                list_pending.append(f" {row['judul']} (by {row['penulis']})")
-        
-        if list_pending:
-            msg = "📋 **LIST ARTIKEL BELUM SUBMIT:**\n\n" + "\n".join(list_pending)
-        else:
-            msg = "🎉 Semua artikel sudah disubmit! Tidak ada tugas pending."
+    data = [
+        f"• {r['judul']} ({r['penulis']})"
+        for r in records if str(r['status']).lower() == "pending"
+    ]
 
-        await update.message.reply_text(msg, parse_mode = "Markdown")
+    msg = "📋 <b>LIST ARTIKEL BELUM SUBMIT:</b>\n\n" + "\n".join(data) if data else "🎉 Semua artikel sudah disubmit!"
+    
+    pesan_masuk = update.message or update.callback_query.message
+    await pesan_masuk.reply_text(msg, parse_mode="HTML")
 
-    except Exception as e:
-        await update.message.reply_text("Gagal mengambil data.")
-        logger.error(f"[ERROR] Gagal mengambil status: {e}")
+# 6. START MENU
+async def cmd_start(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    keyboard = [
+        [
+            InlineKeyboardButton("📊 Status", callback_data="menu_status"),
+            InlineKeyboardButton("📋 List", callback_data="menu_list"),
+        ],
+        [
+            InlineKeyboardButton("📖 Petunjuk", callback_data="menu_petunjuk"),
+            InlineKeyboardButton("📘 Panduan", callback_data="menu_panduan")
+        ]
+    ]
 
+    await update.message.reply_text(
+        "👋 Selamat datang di Bot Artikel\n\nPilih menu:",
+        reply_markup=InlineKeyboardMarkup(keyboard)
+    )
 
-# MAIN PROGRAM
+# 7. LIST SEMUA BERITA (BERDASARKAN STATUS)
+async def cmd_list(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    sh = connect_sheets()
+    records = sh.get_all_records()
+
+    list_pending = [
+        f"⏳ {r['judul']} (oleh {r['penulis']})" 
+        for r in records if str(r['status']).lower() == "pending"
+    ]
+    
+    list_done = [
+        f"✅ {r['judul']} (oleh {r['penulis']})" 
+        for r in records if str(r['status']).lower() == "done"
+    ]
+
+    teks_pending = "\n".join(list_pending) if list_pending else "Tidak ada artikel pending."
+    teks_done = "\n".join(list_done) if list_done else "Tidak ada artikel yang sudah selesai."
+
+    msg = (
+        "📊 <b>REKAP STATUS ARTIKEL</b>\n\n"
+        "🔴 <b>BELUM SUBMIT (PENDING):</b>\n"
+        f"{teks_pending}\n\n"
+        "🟢 <b>SUDAH SUBMIT (DONE):</b>\n"
+        f"{teks_done}"
+    )
+    
+    pesan_masuk = update.message or update.callback_query.message
+    await pesan_masuk.reply_text(msg, parse_mode="HTML")
+
+# 8. PETUNJUK
+async def cmd_petunjuk(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    msg = "📖 Gunakan bot ini untuk cek & update artikel."
+    
+    pesan_masuk = update.message or update.callback_query.message
+    await pesan_masuk.reply_text(msg, parse_mode="HTML")
+
+# 9. PANDUAN
+async def cmd_panduan(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    msg = (
+        "📘 Panduan:\n\n"
+        "1. Admin input\n"
+        "2. Bot kirim reminder\n"
+        "3. Klik tombol submit"
+    )
+    
+    pesan_masuk = update.message or update.callback_query.message
+    await pesan_masuk.reply_text(msg, parse_mode="HTML")
+
+# MAIN
 if __name__ == "__main__":
-    # Build aplikasi 
     app = ApplicationBuilder().token(TOKEN).build()
 
-    # Menu Handler 
+    # COMMAND
+    app.add_handler(CommandHandler("start", cmd_start))
     app.add_handler(CommandHandler("status", cmd_status))
+    app.add_handler(CommandHandler("list", cmd_list))
+    app.add_handler(CommandHandler("petunjuk", cmd_petunjuk))
+    app.add_handler(CommandHandler("panduan", cmd_panduan))
+
+    # CALLBACK
     app.add_handler(CallbackQueryHandler(tombol_handler))
 
-    # Setup jadwal pengiriman reminder setiap hari
+    # JOB
     job_queue = app.job_queue
+    job_queue.run_repeating(kirim_reminder_grup, interval=120, first=10)
 
-    print("Bot Berjalan... Tekan Ctrl+C untuk berhenti.")
-
-    # PENGATURAN JADWAL REMINDER
-    # UNTUK TESTING
-    job_queue.run_repeating(kirim_reminder_grup, interval = 60, first = 10)
-
-    # UNTUK REAL DEPLOYMENT
-    # time_wita = datetime.time(hour = 0, minute = 0)
-    # job_queue.run_daily(kirim_reminder_grup, time = time_wita, days = (0, 1, 2, 3, 4))
-
+    print("Bot jalan...")
     app.run_polling()
