@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import os
 import logging
 import datetime
@@ -202,12 +201,12 @@ async def cmd_list(update: Update, context: ContextTypes.DEFAULT_TYPE):
     records = sh.get_all_records()
 
     list_pending = [
-        f"⏳ {r['judul']} (oleh {r['penulis']})" 
+        f"↦ {r['judul']} | {r['penulis']}" 
         for r in records if str(r['status']).lower() == "pending"
     ]
     
     list_done = [
-        f"✅ {r['judul']} (oleh {r['penulis']})" 
+        f"↦ {r['judul']} | {r['penulis']}" 
         for r in records if str(r['status']).lower() == "done"
     ]
 
@@ -258,9 +257,15 @@ if __name__ == "__main__":
     # CALLBACK
     app.add_handler(CallbackQueryHandler(tombol_handler))
 
-    # JOB
+    # Pengaturan JobQueue untuk reminder
+    # Simulasi
     job_queue = app.job_queue
-    job_queue.run_repeating(kirim_reminder_grup, interval=120, first=10)
+    job_queue.run_repeating(kirim_reminder_grup, interval=300, first=10)
+
+    # Real case
+    # timezone_makassar = pytz.timezone('Asia/Makassar')
+    # time_wita = datetime.time(hour=9, minute=0, tzinfo=timezone_makassar)
+    # job_queue.run_daily(kirim_reminder_grup, time=time_wita, days=(0, 1, 2, 3, 4))
 
     print("Bot jalan...")
     app.run_polling()
