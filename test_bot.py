@@ -286,4 +286,5 @@ if __name__ == "__main__":
     # job_queue.run_daily(kirim_reminder_grup, time=time_wita, days=(0, 1, 2, 3, 4))
 
     print("Bot jalan...")
+
     app.run_polling()
