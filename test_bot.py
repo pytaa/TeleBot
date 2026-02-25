@@ -179,6 +179,9 @@ async def cmd_status(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # 6. START MENU
 async def cmd_start(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    # Nama user untuk sapaan yang lebih personal
+    user_name = update.effective_user.first_name
+
     keyboard = [
         [
             InlineKeyboardButton("📊 Status", callback_data="menu_status"),
@@ -190,8 +193,23 @@ async def cmd_start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         ]
     ]
 
+    # Redaksi lengkap dengan penjelasan perintah
+    pesan = (
+        f"Salam, {user_name}. Saya **Harphy** 🦅\n\n"
+        "Ruang kerja digital Anda baru saja menjadi lebih cerdas. "
+        "Berikan saya instruksi, dan saksikan bagaimana ide-ide Anda terorganisir secara instan.\n\n"
+        "**Modul Operasi:**\n"
+        "• 📊 **Status**: Cek statistik dan kondisi sistem.\n"
+        "• 📋 **List**: Akses daftar artikel yang tersedia.\n"
+        "• 📖 **Petunjuk**: Langkah cepat penggunaan fitur.\n"
+        "• 📘 **Panduan**: Dokumentasi operasional lengkap.\n\n"
+        "Pilih perintah untuk mulai:"
+    )
+
     await update.message.reply_text(
-        "👋 Selamat datang di Bot Artikel\n\nPilih menu:",
+        text=pesan,
+        # Menggunakan ParseMode HTML agar bold (**) berfungsi sebagai <b>
+        parse_mode='HTML', 
         reply_markup=InlineKeyboardMarkup(keyboard)
     )
 
