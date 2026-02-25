@@ -195,20 +195,20 @@ async def cmd_start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     # Redaksi lengkap dengan penjelasan perintah
     pesan = (
-        f"Salam, {user_name}. Saya **Harphy** 🦅\n\n"
+        f"Salam, {user_name}. Saya <b>Harphy</b> 🦅\n\n"
         "Ruang kerja digital Anda baru saja menjadi lebih cerdas. "
         "Berikan saya instruksi, dan saksikan bagaimana ide-ide Anda terorganisir secara instan.\n\n"
-        "**Modul Operasi:**\n"
-        "• 📊 **Status**: Cek statistik dan kondisi sistem.\n"
-        "• 📋 **List**: Akses daftar artikel yang tersedia.\n"
-        "• 📖 **Petunjuk**: Langkah cepat penggunaan fitur.\n"
-        "• 📘 **Panduan**: Dokumentasi operasional lengkap.\n\n"
+        "<b>Modul Operasi:</b>\n"
+        "• 📊 <b>Status</b>: Cek statistik dan kondisi sistem.\n"
+        "• 📋 <b>List</b>: Akses daftar artikel yang tersedia.\n"
+        "• 📖 <b>Petunjuk</b>: Langkah cepat penggunaan fitur.\n"
+        "• 📘 <b>Panduan</b>: Dokumentasi operasional lengkap.\n\n"
         "Pilih perintah untuk mulai:"
     )
 
     await update.message.reply_text(
         text=pesan,
-        # Menggunakan ParseMode HTML agar bold (**) berfungsi sebagai <b>
+
         parse_mode='HTML', 
         reply_markup=InlineKeyboardMarkup(keyboard)
     )
@@ -258,6 +258,29 @@ async def cmd_panduan(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "3. Klik tombol submit"
     )
     
+    msg = (
+        "📌 <b>PANDUAN PENGGUNAAN BOT</b> 📌\n"
+        "Bot ini dibuat untuk membantu proses dan sebagai pengingat pengumpulan artikel agar lebih rapi, terstruktur, dan tidak ada yang terlewatkan.\n\n"
+        "<b>╰┈➤ Cara Konfirmasi Tugas</b>\n"
+        "1️⃣ Tunggu Reminder\n"
+        "Bot akan secara otomatis mengirim pengingat artikel yang belum submit setiap 08.00 WITA (Senin-Jumat) di grup.\n\n"
+        "2️⃣ Klik Tombol Konfirmasi\n"
+        "Kalau artikelnya sudah beres, langsung klik tombol <b>“✅ Sudah Submit”</b> yang ada di bawah pesan reminder tersebut.\n\n"
+        "3️⃣ Status Ter-update Otomatis\n"
+        " Bot akan otomatis mencatat:\n"
+        "• Nama kamu\n"
+        "• Jam submit\n"
+        "• Mengubah status di database/spreadsheet jadi ‘Done’\n\n\n"
+        "<b>╰┈➤ Daftar Perintah Bantuan</b>\n"
+        "• /start → Buka menu interaktif\n"
+        "• /status → Cek daftar artikel yang masih Pending\n"
+        "• /list → Lihat daftar kegiatan berdasarkan status (Pending / Done)\n\n\n"
+        "<b>╰┈➤ Catatan Penting !!️</b>\n"
+        "Mohon hanya klik tombol submit untuk tugas masing-masing, ya 🙏"
+        "Kalau ada salah klik atau perlu revisi judul, langsung hubungi Admin supaya bisa dibantu.\n\n"
+        "<b>—˖ ֹ੭୧ TeleBot ⊹ ࣪ ⑅</b>"
+    )
+
     pesan_masuk = update.message or update.callback_query.message
     await pesan_masuk.reply_text(msg, parse_mode="HTML")
 
