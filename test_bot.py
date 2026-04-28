@@ -303,7 +303,7 @@ if __name__ == "__main__":
     # Pengaturan JobQueue untuk reminder
     # Simulasi
     job_queue = app.job_queue
-    job_queue.run_repeating(kirim_reminder_grup, interval=300, first=10)
+    job_queue.run_repeating(kirim_reminder_grup, interval=60, first=10)
 
     # Real case
     # timezone_makassar = pytz.timezone('Asia/Makassar')
